@@ -1,0 +1,94 @@
+body{
+    font-family: 'Changa', sans-serif;
+}
+.addforms .card{
+    border: 1px solid #2d3561;
+    border-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 10px;
+}
+.tabcontent #products{
+    background-color: #eee;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-indent: 15px; 
+    font-family: 'Changa', sans-serif; 
+    outline: none;
+}
+.tabcontent #products:hover{
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+.tabcontent .card .forms{
+    padding: 15px;
+}
+.forms .mb-3 i{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #2d3561;
+    color: #f48639;
+}
+.forms input{
+    border: none;
+    outline: none;
+    padding: 0;
+    border-bottom: 1px solid #f48639;
+    text-indent: 10px;
+    font-family: 'Changa', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5حءك
+}
+.forms input.active , .forms input:focus{
+    border-bottom: 1px solid #2d3561;
+    transition: .5s ease-in-out; 
+}
+.forms label{
+    border-bottom: 1px solid #f48639;
+    /* width: 100%; */
+    
+    text-indent: 20px;
+}
+.forms .lb{
+    margin-left: 30%;
+}
+fieldset{
+    border:1px solid #f48639;
+}
+fieldset legend{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.forms select{
+    width: 100%;
+    /* background-color: #f48639; */
+    color: #f48639;
+    font-weight: bold;
+    padding: 2px;
+    outline: none;
+    text-indent: 15px;
+}
+.forms input[type='file']{
+    width: 100%;
+}
+.forms .btn_sub{
+    border: 1px solid#f48639;
+    color: #2d3561;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.forms .btn_sub.active , .forms .btn_sub:hover{
+    background-color: #2d3561;
+    color: #f48639;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+#cars_d , #vichles_d , #jewl_d , #builds_d , #high_d{
+    display: none;
+}
